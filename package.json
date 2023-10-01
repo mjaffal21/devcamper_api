@@ -1,0 +1,36 @@
+{
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "Devcamper Api",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=production&& node server",
+    "dev": "nodemon server"
+  },
+  "author": "Mohammad Jaffal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.0.2",
+    "fs": "^0.0.1-security",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^4.2.0",
+    "nodemailer": "^6.9.5",
+    "slugify": "^1.6.6",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
