@@ -2,10 +2,6 @@
 
 > Backend API for DevCamper application, which is a bootcamp directory website
 
-## Usage
-
-Rename "config/config.env.env" to "config/config.env" and update the values/settings to your own
-
 ## Install Dependencies
 
 ```
@@ -36,8 +32,8 @@ node seeder -i
 
 ## Demo
 
-Extensive documentation with examples [here](https://documenter.getpostman.com/view/8923145/SVtVVTzd?version=latest)
+Extensive documentation with examples [here](https://documenter.getpostman.com/view/25007167/2s9YJaZQ7n)
 
 - Version: 1.0.0
 - License: MIT
-- Author: Brad Traversy
+- Author: Mohammad Jaffal
